@@ -11,7 +11,7 @@ export interface Theme {
 }
 
 export interface Context extends Theme {
-  method: Methods
+  method?: Methods
 }
 
 export interface Message extends Payload {

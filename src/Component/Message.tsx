@@ -1,9 +1,7 @@
 import * as React from 'react'
 import { MessageProps, Theme } from '../definitions/Component'
-import { ThemeProvider } from 'emotion-theming'
-
+import { ThemeProvider } from '@emotion/react'
 import { Message, Icon, Content, AmountIcon } from './elements'
-
 import Formatted from './message-parsers/Formatted'
 import ObjectTree from './message-parsers/Object'
 import ErrorPanel from './message-parsers/Error'

@@ -1,8 +1,7 @@
 import * as React from 'react'
-import { ThemeProvider } from 'emotion-theming'
+import { ThemeProvider } from '@emotion/react'
 import { Props } from '../definitions/Component'
 import Styles from './theme/default'
-
 import { Root } from './elements'
 import Message from './Message'
 
